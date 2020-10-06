@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="nos"
+        fetch="https://github.com/nitrogen-project"
+        sync-j="16" />
+
+    <!-- surya -->
+    <project path="device/xiaomi/surya" name="android_device_xiaomi_surya" remote="nos" revision="10" />
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="nos" revision="10" />
+</manifest>
